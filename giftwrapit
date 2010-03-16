@@ -1,0 +1,2 @@
+#!/bin/sh
+tar -cf gittalk.tar gittalk.tex *.svg *.pdf gitk-rails.jpg giftwrapit makefile

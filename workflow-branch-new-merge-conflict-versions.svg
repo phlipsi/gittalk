@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="590"
+   height="340"
+   id="svg4823"
+   version="1.0"
+   inkscape:version="0.46"
+   sodipodi:docname="workflow-branch-new-merge-conflict-versions.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4825">
+    <linearGradient
+       id="linearGradient5795">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop5797" />
+      <stop
+         style="stop-color:#565656;stop-opacity:1;"
+         offset="1"
+         id="stop5799" />
+    </linearGradient>
+    <marker
+       style="overflow:visible"
+       inkscape:stockid="InfiniteLineEnd"
+       id="InfiniteLineEnd"
+       refX="0"
+       refY="0"
+       orient="auto">
+      <g
+         id="g5111">
+        <circle
+           id="circle5113"
+           r="0.80000001"
+           cy="0"
+           cx="3"
+           sodipodi:cx="3"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
+        <circle
+           id="circle5115"
+           r="0.80000001"
+           cy="0"
+           cx="6.5"
+           sodipodi:cx="6.5"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
+        <circle
+           id="circle5117"
+           r="0.80000001"
+           cy="0"
+           cx="10"
+           sodipodi:cx="10"
+           sodipodi:cy="0"
+           sodipodi:rx="0.80000001"
+           sodipodi:ry="0.80000001" />
+      </g>
+    </marker>
+    <linearGradient
+       id="linearGradient13786">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop13788" />
+      <stop
+         id="stop13790"
+         offset="0.69937778"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0.89952528"
+         id="stop13792" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop13794" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient13319">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop13321" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.2025862;"
+         offset="1"
+         id="stop13323" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient12554">
+      <stop
+         id="stop12556"
+         offset="0"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0.30205646"
+         id="stop12558" />
+      <stop
+         id="stop12560"
+         offset="0.83256102"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+      <stop
+         id="stop12562"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10502">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop10504" />
+      <stop
+         id="stop10510"
+         offset="0.44491357"
+         style="stop-color:#ffffff;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0.83256102"
+         id="stop10512" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop10506" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient10492">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0"
+         id="stop10494" />
+      <stop
+         id="stop10500"
+         offset="0.5"
+         style="stop-color:#ffffff;stop-opacity:0;" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop10496" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Sstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Sstart"
+       style="overflow:visible">
+      <path
+         id="path5519"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.2,0,0,0.2,1.2,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible">
+      <path
+         id="path5513"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.4,0,0,0.4,4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible">
+      <path
+         id="path5516"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         id="path5528"
+         style="font-size:12px;fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.01601326 L 8.7185884,-4.0017078 C 6.97309,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 L 8.7185878,4.0337352 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)" />
+    </marker>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective4831" />
+    <inkscape:perspective
+       id="perspective3733"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-3"
+       style="overflow:visible">
+      <path
+         id="path5516-8"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3739"
+       style="overflow:visible">
+      <path
+         id="path3741"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3743"
+       style="overflow:visible">
+      <path
+         id="path3745"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3747"
+       style="overflow:visible">
+      <path
+         id="path3749"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3751"
+       style="overflow:visible">
+      <path
+         id="path3753"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3755"
+       style="overflow:visible">
+      <path
+         id="path3757"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3759"
+       style="overflow:visible">
+      <path
+         id="path3761"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective5641"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6825"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend-9"
+       style="overflow:visible">
+      <path
+         id="path5516-6"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6831"
+       style="overflow:visible">
+      <path
+         id="path6833"
+         d="M 0,0 L 5,-5 L -12.5,0 L 5,5 L 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)" />
+    </marker>
+    <inkscape:perspective
+       id="perspective7764"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8030"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8147"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective12490"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5795"
+       id="linearGradient8829"
+       gradientUnits="userSpaceOnUse"
+       x1="54.899078"
+       y1="815.24835"
+       x2="66.149078"
+       y2="802.88214"
+       gradientTransform="matrix(1.4427568,0,0,1.4427568,-19.325926,-355.48152)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5795"
+       id="linearGradient8929"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4427568,0,0,1.4427568,-19.325926,-355.48152)"
+       x1="54.899078"
+       y1="815.24835"
+       x2="66.149078"
+       y2="802.88214" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5795"
+       id="linearGradient8973"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.4427568,0,0,1.4427568,-19.325926,-355.48152)"
+       x1="54.899078"
+       y1="815.24835"
+       x2="66.149078"
+       y2="802.88214" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2423722"
+     inkscape:cx="468.21078"
+     inkscape:cy="169.17459"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1272"
+     inkscape:window-height="946"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata4828">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-652.36218)">
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2987"
+       width="185.75151"
+       height="116.35247"
+       x="7.6488004"
+       y="788.37531" />
+    <rect
+       y="788.42157"
+       x="207.00195"
+       height="185.28983"
+       width="184.91743"
+       id="rect3903"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3984"
+       width="176.30557"
+       height="146.07239"
+       x="406.35513"
+       y="788.39172" />
+    <path
+       style="fill:#4aa958;fill-opacity:0.6896552;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 10.1875,870.07678 L 10.1875,880.79553 L 190.78125,880.79553 C 197.98414,880.79553 202.57177,890.57678 209.5,890.57678 L 390.0625,890.57678 L 390.0625,879.88928 L 209.5,879.88928 C 203.37033,879.88928 198.97355,870.07678 190.78125,870.07678 L 10.1875,870.07678 z"
+       id="rect4187"
+       sodipodi:nodetypes="ccccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="11.628372"
+       y="797.7323"
+       id="text3852"><tspan
+         sodipodi:role="line"
+         id="tspan3854"
+         x="11.628372"
+         y="797.7323">#include &lt;stdio.h&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="807.7323"
+         id="tspan3856" /><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="817.7323"
+         id="tspan3858">int sum(int n) {</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="827.7323"
+         id="tspan3860">  if (n &gt; 1) return sum(n-1) + n;</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="837.7323"
+         id="tspan3862">  return 1;</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="847.7323"
+         id="tspan3864">}</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="857.7323"
+         id="tspan3866" /><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="867.7323"
+         id="tspan3868">int main() {</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="877.7323"
+         id="tspan3886">  printf(&quot;1+2+3+4+5 = %d\n&quot;, sum(5));</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="887.7323"
+         id="tspan4051">  return 0;</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="897.7323"
+         id="tspan3888">}</tspan><tspan
+         sodipodi:role="line"
+         x="11.628372"
+         y="907.7323"
+         id="tspan3890" /></text>
+    <path
+       sodipodi:nodetypes="ccccccccc"
+       id="path4250"
+       d="M 580.27229,870.07678 L 580.27229,922.05427 L 408.76945,922.05427 C 396.65126,922.05427 399.09879,940.92643 387.9528,940.92643 L 209.4882,940.92643 L 209.4882,898.7704 L 387.9528,898.7704 C 398.30193,898.7704 397.05975,870.07678 408.76945,870.07678 L 580.27229,870.07678 z"
+       style="fill:#bb6565;fill-opacity:0.6896552;stroke:none;stroke-width:0.5;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="410.31833"
+       y="797.7323"
+       id="text3986"><tspan
+         sodipodi:role="line"
+         id="tspan3988"
+         x="410.31833"
+         y="797.7323">#include &lt;stdio.h&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="807.7323"
+         id="tspan3990" /><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="817.7323"
+         id="tspan3992">int sum(int n) {</tspan><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="827.7323"
+         id="tspan3994">  if (n &gt; 1) return sum(n-1) + n;</tspan><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="837.7323"
+         id="tspan3996">  return 1;</tspan><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="847.7323"
+         id="tspan3998">}</tspan><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="857.7323"
+         id="tspan4000" /><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="867.7323"
+         id="tspan4002">int main() {</tspan><tspan
+         id="tspan4010"
+         sodipodi:role="line"
+         x="410.31833"
+         y="877.7323">  int n;</tspan><tspan
+         id="tspan4012"
+         sodipodi:role="line"
+         x="410.31833"
+         y="887.7323">  puts(&quot;n = &quot;);</tspan><tspan
+         id="tspan4014"
+         sodipodi:role="line"
+         x="410.31833"
+         y="897.7323">  scanf(&quot;%u&quot;, &amp;n);</tspan><tspan
+         id="tspan4016"
+         sodipodi:role="line"
+         x="410.31833"
+         y="907.7323">  printf(&quot;1+2+...+n = %u&quot;, sum(n));</tspan><tspan
+         id="tspan4020"
+         sodipodi:role="line"
+         x="410.31833"
+         y="917.7323">  return 0;</tspan><tspan
+         id="tspan4022"
+         sodipodi:role="line"
+         x="410.31833"
+         y="927.7323">}</tspan><tspan
+         sodipodi:role="line"
+         x="410.31833"
+         y="937.7323"
+         id="tspan4024" /></text>
+    <text
+       id="text3905"
+       y="797.7323"
+       x="210.93532"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       xml:space="preserve"><tspan
+         y="797.7323"
+         x="210.93532"
+         id="tspan3907"
+         sodipodi:role="line">#include &lt;stdio.h&gt;</tspan><tspan
+         id="tspan3909"
+         y="807.7323"
+         x="210.93532"
+         sodipodi:role="line" /><tspan
+         id="tspan3911"
+         y="817.7323"
+         x="210.93532"
+         sodipodi:role="line">int sum(int n) {</tspan><tspan
+         id="tspan3913"
+         y="827.7323"
+         x="210.93532"
+         sodipodi:role="line">  if (n &gt; 1) return sum(n-1) + n;</tspan><tspan
+         id="tspan3915"
+         y="837.7323"
+         x="210.93532"
+         sodipodi:role="line">  return 1;</tspan><tspan
+         id="tspan3917"
+         y="847.7323"
+         x="210.93532"
+         sodipodi:role="line">}</tspan><tspan
+         id="tspan3919"
+         y="857.7323"
+         x="210.93532"
+         sodipodi:role="line" /><tspan
+         id="tspan3921"
+         y="867.7323"
+         x="210.93532"
+         sodipodi:role="line">int main() {</tspan><tspan
+         id="tspan3923"
+         y="877.7323"
+         x="210.93532"
+         sodipodi:role="line">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:main.c</tspan><tspan
+         y="887.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3937">  printf(&quot;1+2+3+4+5 = %d\n&quot;, sum(5));</tspan><tspan
+         y="897.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3939">=======</tspan><tspan
+         y="907.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3941">  int n;</tspan><tspan
+         y="917.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3943">  puts(&quot;n = &quot;);</tspan><tspan
+         y="927.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3945">  scanf(&quot;%u&quot;, &amp;n);</tspan><tspan
+         y="937.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3947">  printf(&quot;1+2+...+n = %u&quot;, sum(n));</tspan><tspan
+         y="947.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3949">&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature:main.c</tspan><tspan
+         y="957.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3951">  return 0;</tspan><tspan
+         y="967.7323"
+         x="210.93532"
+         sodipodi:role="line"
+         id="tspan3953">}</tspan><tspan
+         id="tspan3935"
+         y="977.7323"
+         x="210.93532"
+         sodipodi:role="line" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="9.6589403"
+       y="917.48114"
+       id="text4269"><tspan
+         sodipodi:role="line"
+         id="tspan4271"
+         x="9.6589403"
+         y="917.48114">master: main.c</tspan></text>
+    <text
+       id="text4273"
+       y="948.06781"
+       x="409.70007"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       xml:space="preserve"><tspan
+         y="948.06781"
+         x="409.70007"
+         id="tspan4275"
+         sodipodi:role="line">feature: main.c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="209.27704"
+       y="985.89868"
+       id="text4277"><tspan
+         sodipodi:role="line"
+         id="tspan4279"
+         x="209.27704"
+         y="985.89868">main.c</tspan></text>
+    <rect
+       y="660.5849"
+       x="210.67064"
+       height="116.35247"
+       width="176.47639"
+       id="rect4321"
+       style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       id="path4353"
+       d="M 213.18051,742.17468 L 213.18051,752.89343 L 384.11532,752.89343 L 384.11532,742.17468 L 213.18051,742.17468 z"
+       style="fill:#a7a94a;fill-opacity:0.68965518;stroke:none;stroke-width:0.50000000000000000;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" />
+    <text
+       id="text4323"
+       y="669.94189"
+       x="214.65021"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       xml:space="preserve"><tspan
+         y="669.94189"
+         x="214.65021"
+         id="tspan4325"
+         sodipodi:role="line">#include &lt;stdio.h&gt;</tspan><tspan
+         id="tspan4327"
+         y="679.94189"
+         x="214.65021"
+         sodipodi:role="line" /><tspan
+         id="tspan4329"
+         y="689.94189"
+         x="214.65021"
+         sodipodi:role="line">int sum(int n) {</tspan><tspan
+         id="tspan4331"
+         y="699.94189"
+         x="214.65021"
+         sodipodi:role="line">  if (n &gt; 1) return sum(n-1) + n;</tspan><tspan
+         id="tspan4333"
+         y="709.94189"
+         x="214.65021"
+         sodipodi:role="line">  return 1;</tspan><tspan
+         id="tspan4335"
+         y="719.94189"
+         x="214.65021"
+         sodipodi:role="line">}</tspan><tspan
+         id="tspan4337"
+         y="729.94189"
+         x="214.65021"
+         sodipodi:role="line" /><tspan
+         id="tspan4339"
+         y="739.94189"
+         x="214.65021"
+         sodipodi:role="line">int main() {</tspan><tspan
+         id="tspan4341"
+         y="749.94189"
+         x="214.65021"
+         sodipodi:role="line">  printf(&quot;1+2+3+4+5 = %d&quot;, sum(5));</tspan><tspan
+         id="tspan4343"
+         y="759.94189"
+         x="214.65021"
+         sodipodi:role="line">  return 0;</tspan><tspan
+         id="tspan4345"
+         y="769.94189"
+         x="214.65021"
+         sodipodi:role="line">}</tspan><tspan
+         id="tspan4347"
+         y="779.94189"
+         x="214.65021"
+         sodipodi:role="line" /></text>
+    <path
+       style="fill:#177826;fill-opacity:0.99679488;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 206.62882,721.73666 C 128.3846,721.73666 111.30131,744.57638 111.30131,776.87203 L 116.96943,776.87203 L 107.69432,783.1978 L 98.549274,776.87203 L 104.08733,776.87203 C 104.08733,737.91704 129.13168,714.52269 206.62882,714.52269 L 206.62882,721.73666 z"
+       id="path4349"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       sodipodi:nodetypes="cccccccc"
+       id="path4351"
+       d="M 393.13669,721.73666 C 471.3809,721.73666 488.46419,744.57638 488.46419,776.87203 L 482.79607,776.87203 L 492.07118,783.1978 L 501.21623,776.87203 L 495.67817,776.87203 C 495.67817,737.91704 470.63382,714.52269 393.13669,714.52269 L 393.13669,721.73666 z"
+       style="fill:#781717;fill-opacity:0.99679488;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="391.99203"
+       y="670.39746"
+       id="text4355"><tspan
+         sodipodi:role="line"
+         id="tspan4357"
+         x="391.99203"
+         y="670.39746">base: main.c</tspan></text>
+  </g>
+</svg>

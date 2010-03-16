@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="320"
+   height="240"
+   id="svg9222"
+   version="1.1"
+   inkscape:version="0.47pre4 r22446"
+   sodipodi:docname="log.svg">
+  <defs
+     id="defs9224">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective9230" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.534375"
+     inkscape:cx="167.5846"
+     inkscape:cy="120"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="934"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9227">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-812.36218)">
+    <rect
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.53776562;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect9791"
+       width="309.87668"
+       height="232.22865"
+       x="5.0616608"
+       y="816.24786" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="11.078727"
+       y="831.21497"
+       id="text9232"><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="831.21497"
+         id="tspan10646">user@kiste:~/develop/myproj$ git log</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="843.71497"
+         id="tspan11011">commit f538e5460e33712c81180197a81569b78ea9a498</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="856.21497"
+         id="tspan11077">Author: user &lt;user@cia.org&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="868.71497"
+         id="tspan11079">Date:   Fri Feb 26 15:23:13 2010 +0100</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="881.21497"
+         id="tspan11081"></tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="893.71497"
+         id="tspan11083">    Added something very new</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="906.21497"
+         id="tspan11085"></tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="918.71497"
+         id="tspan11087">commit 37a83dd700c48cedcecf6352bea6bef0ec0b7c67</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="931.21497"
+         id="tspan11089">Author: user &lt;user@cia.org&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="943.71497"
+         id="tspan11091">Date:   Thu Feb 25 21:55:10 2010 +0100</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="956.21497"
+         id="tspan11093"></tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="968.71497"
+         id="tspan11095">    Something new add</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="981.21497"
+         id="tspan11097"></tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="993.71497"
+         id="tspan11099">commit 9844251c2243a90d19f5fbd6bd6ecd3ecb3e4f6f</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1006.215"
+         id="tspan11101">Author: user &lt;user@cia.org&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1018.715"
+         id="tspan11103">Date:   Fri Feb 19 15:33:11 2010 +0100</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1031.215"
+         id="tspan11105"></tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1043.715"
+         id="tspan11107">    first commit</tspan><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1056.215"
+         id="tspan11109" /><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1068.715"
+         id="tspan11013" /><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1081.215"
+         id="tspan10938" /><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1093.715"
+         id="tspan10863" /><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1106.215"
+         id="tspan10602" /><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1118.715"
+         id="tspan10520" /><tspan
+         sodipodi:role="line"
+         x="11.078727"
+         y="1131.215"
+         id="tspan10431" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="-15.565345"
+       y="139.50073"
+       id="text9268"
+       transform="translate(0,852.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan9270"
+         x="-15.565345"
+         y="139.50073" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot10865"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:12;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion10867"><rect
+           id="rect10869"
+           width="16.177559"
+           height="71.02343"
+           x="14.993834"
+           y="82.564735" /></flowRegion><flowPara
+         id="flowPara10871"></flowPara></flowRoot>  </g>
+</svg>

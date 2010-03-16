@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="250"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.47pre4 r22446"
+   version="1.0"
+   sodipodi:docname="centralized.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.845"
+     inkscape:cx="200"
+     inkscape:cy="125"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1280"
+     inkscape:window-height="934"
+     inkscape:window-x="0"
+     inkscape:window-y="33"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3161"
+       transform="translate(10.995665,-129.74576)">
+      <rect
+         ry="10"
+         rx="10"
+         y="137.63075"
+         x="131.49532"
+         height="51.741058"
+         width="115.42236"
+         id="rect2383"
+         style="fill:#98f19a;fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text3155"
+         y="157.2171"
+         x="188.59126"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="157.2171"
+           x="188.59126"
+           id="tspan3157"
+           sodipodi:role="line">Main</tspan><tspan
+           id="tspan3159"
+           y="179.7171"
+           x="188.59126"
+           sodipodi:role="line">Repository</tspan></text>
+    </g>
+    <g
+       id="g4781"
+       transform="translate(-70.494969,120.16752)">
+      <rect
+         ry="17.520216"
+         y="24.258762"
+         x="78.369278"
+         height="35.714287"
+         width="116.57682"
+         id="rect3224"
+         style="fill:#eaef8d;fill-opacity:1;stroke:#666666;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text3226"
+         y="47.081726"
+         x="89.499969"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="47.081726"
+           x="89.499969"
+           id="tspan3228"
+           sodipodi:role="line">Developer</tspan></text>
+    </g>
+    <g
+       id="g4786"
+       transform="translate(29.368576,119.49367)">
+      <rect
+         style="fill:#ef8d8d;fill-opacity:1;stroke:#666666;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect3230"
+         width="116.57682"
+         height="35.714287"
+         x="237.39893"
+         y="24.932617"
+         ry="17.520216" />
+      <text
+         xml:space="preserve"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="248.52962"
+         y="47.755581"
+         id="text3232"><tspan
+           sodipodi:role="line"
+           id="tspan3234"
+           x="248.52962"
+           y="47.755581">Developer</tspan></text>
+    </g>
+    <path
+       style="fill:#089800;fill-opacity:0.60409558;fill-rule:evenodd;stroke:none"
+       d="M 200.46875 61.4375 L 192.125 69.125 L 196.9375 69.125 C 196.9375 95.634509 78 104.16769 78 136.25 L 73.15625 136.25 L 81.53125 143.4375 L 89.71875 136.25 L 85.0625 136.25 C 85.0625 114.13816 171.36086 104.63278 196.9375 82.15625 C 196.95573 98.687029 197.03125 110.81035 197.03125 136.25 L 192.1875 136.25 L 200.5625 143.4375 L 208.71875 136.25 L 204.09375 136.25 C 204.09375 110.29201 204.03125 101.71946 204.03125 69.125 L 208.65625 69.125 L 200.46875 61.4375 z "
+       id="path3252" />
+    <path
+       style="fill:#980000;fill-opacity:0.60409558;fill-rule:evenodd;stroke:none"
+       d="m 216.06608,62.368602 c 0,25.02538 86.52249,50.478548 86.52249,73.449338 l -4.84139,0 8.38288,7.54338 8.18002,-7.54338 -4.63853,0 c 0,-23.96073 -86.52251,-52.737562 -86.52251,-73.449338 l -7.08296,0 z"
+       id="path3258"
+       sodipodi:nodetypes="cccccccc" />
+    <g
+       transform="translate(58.951625,120.16752)"
+       id="g4791">
+      <rect
+         style="fill:#eaef8d;fill-opacity:1;stroke:#666666;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="rect4793"
+         width="116.57682"
+         height="35.714287"
+         x="78.369278"
+         y="24.258762"
+         ry="17.520216" />
+      <text
+         xml:space="preserve"
+         style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         x="89.499969"
+         y="47.081726"
+         id="text4795"><tspan
+           sodipodi:role="line"
+           id="tspan4797"
+           x="89.499969"
+           y="47.081726">Developer</tspan></text>
+    </g>
+  </g>
+</svg>
