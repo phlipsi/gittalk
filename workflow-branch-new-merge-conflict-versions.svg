@@ -414,9 +414,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.2423722"
-     inkscape:cx="468.21078"
-     inkscape:cy="169.17459"
+     inkscape:zoom="2"
+     inkscape:cx="295"
+     inkscape:cy="170"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -706,7 +706,7 @@
          sodipodi:role="line"
          id="tspan4279"
          x="209.27704"
-         y="985.89868">main.c</tspan></text>
+         y="985.89868">working tree: main.c</tspan></text>
     <rect
        y="660.5849"
        x="210.67064"

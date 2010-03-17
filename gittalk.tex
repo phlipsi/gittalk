@@ -60,7 +60,7 @@
     \end{itemize}
   \end{block}
   \pause
- \begin{block}{\textcolor{red}{But:} Why do I need a Version Control System?}
+ \begin{block}{\textcolor{red}{But:} Why do you need a Version Control System?}
    \begin{itemize}
       \item Backup and restore files
       \item Share files with other developers
@@ -105,22 +105,46 @@
 %   \end{minipage}  
 % }
 
-\subsection{Distributed Version Control Systems}
-\frame
-{
-  \frametitle{Distributed Version Control Systems}
-  \begin{minipage}{0.6\linewidth}
-    \includegraphics[width=\linewidth]{distributed.pdf}
-  \end{minipage}  
-  \begin{minipage}{0.38\linewidth}
+\subsection{Centralized vs. distributed Version Control Systems}
+\begin{frame}[fragile]
+  \frametitle{Centralized vs. distributed Version Control Systems}
+  \begin{minipage}{0.45\linewidth}
+    \begin{center}
+      \textbf{Centralized Model}
+    \end{center}
+    \includegraphics[width=\linewidth]{centralized.pdf}
     \begin{itemize}
-      \item Every developer has its own repository
-      \item Each developer has read and write access to his/her own one
-      \item Share changes with other developers
-      \item Examples: Git, Bazaar, Monotone
-    \end{itemize}    
-  \end{minipage}  
-}
+      \item One central repository with individual access rights
+      \item Changes apply immediately to all developers
+      \item Examples: CVS, Subversion
+    \end{itemize}
+  \end{minipage}
+  \textbf{vs.}
+  \begin{minipage}{0.45\linewidth}
+    \begin{center}
+      \textbf{Distributed Model}
+    \end{center}
+    \includegraphics[width=\linewidth]{distributed.pdf}
+    \begin{itemize}
+      \item Each developer has his/her own local repository
+      \item Changes can be shared between them
+      \item Examples: Git, Mercurial
+    \end{itemize}
+  \end{minipage}
+% 
+%   \begin{minipage}{0.6\linewidth}
+%     \includegraphics[width=\linewidth]{distributed.pdf}
+%   \end{minipage}  
+%   \begin{minipage}{0.38\linewidth}
+%     \begin{itemize}
+%       \item Every developer has its own repository
+%       \item Each developer has read and write access to his/her own one
+%       \item Share changes with other developers
+%       \item Examples: Git, Bazaar, Monotone
+%     \end{itemize}    
+%   \end{minipage}  
+\end{frame}
+
 \subsection{Pros and cons of the distributed model}
 \frame
 {
@@ -130,15 +154,15 @@
       \item Don't need a connection to a network to work productively
       \item Some operations are much faster since no network is needed
       \item No sensitive single main repository
-      \item Allow participation in project without permission
+      \item Allow easy participation in project without permission
       \item Usually easier branching and merging
     \end{itemize}
   \end{block}
   \begin{block}{Cons}
     \begin{itemize}
       \item More complex concept
-      \item Weaker data security
-      \item No dedicated version at one time
+      \item No dedicated version at one time, no easy revision numbers
+      \item No separated backup copy
     \end{itemize}
   \end{block}
 
@@ -186,9 +210,9 @@
 
   \end{block}
   \begin{block}{Windows}
-    Under \texttt{http://nathanj.github.com/gitguide/} you can find an quick introduction about installing and using Git on Windows.\smallskip
+    Under \texttt{http://nathanj.github.com/gitguide/} you can find a quick introduction about installing and using Git on Windows.\smallskip
 
-    Independent from this guide after the setup you can 
+    After the setup of \texttt{msysgit} (Windows port of Git) you can 
     \begin{itemize}
       \item Right click in your explorer and go to "Git Bash Here"
       \item A command line starts right in the current folder
@@ -236,8 +260,8 @@
   \begin{minipage}{0.6\linewidth}
     \begin{itemize}
       \item<1-> Every object in the history stores its type, size and content
-      \item<2-> From this data the SHA1 hash is calculated
-      \item<3-> This value serves as a unique name 
+      \item<2-> From this data the SHA1 hash (40-digit number) is calculated
+      \item<3-> This value serves as a unique name. Collisions are highly unlikely!
     \end{itemize}    
   \end{minipage}\bigskip
   
@@ -265,6 +289,14 @@
   \end{minipage}  
 \end{frame}
 
+\begin{frame}
+  \frametitle{An Example}
+  \begin{center}
+    \includegraphics[width=0.5\linewidth]{history-with-objects.pdf}
+  \end{center}
+\end{frame}
+
+
 %\subsection{An Example}
 %\begin{frame}
 %  \frametitle{An Example}
@@ -273,7 +305,7 @@
 %  \end{center}
 %\end{frame}
 
-\section{Using Git}
+\section{How to start}
 \subsection{Basics}
 \begin{frame}
   \frametitle{Basics}
@@ -315,7 +347,6 @@
       \item The Git community book: \texttt{http://book.git-scm.com/}
       \item Pro Git book: \texttt{http://progit.org/book/}
     \end{itemize}
-    \pause
     Tips collections:
     \begin{itemize}
       \item Git ready: \texttt{http://gitready.com/}
@@ -358,6 +389,7 @@
 \subsection{Inspecting your Repository}
 \begin{frame}
   \frametitle{Inspecting your Repository I}
+  \framesubtitle{Show the current state of the repository}
   \begin{minipage}{0.55\linewidth}
     \begin{itemize}
       \item Status of the current working tree\\
@@ -381,12 +413,11 @@
     \includegraphics<3>[width=\linewidth]{diff-staged.pdf}
     \includegraphics<4>[width=\linewidth]{diff-head.pdf}
   \end{minipage}  
-  \pause[4]
-  Remark: \texttt{HEAD\textasciitilde n} is the parent commit of \texttt{HEAD\textasciitilde (n-1)} (for $n>1$) and \texttt{HEAD\textasciitilde 1}\ =\ \texttt{HEAD\^} is the parent commit of the last commit.
 \end{frame}
 
 \begin{frame}
   \frametitle{Inspecting your Repository II}
+  \framesubtitle{Review commits}
   \begin{minipage}{0.55\linewidth}
     \begin{itemize}
       \item Review the last commit\\
@@ -409,11 +440,15 @@
     \includegraphics<2>[width=\linewidth]{show-before.pdf}
     \includegraphics<3>[width=\linewidth]{show-name-status.pdf}
     \includegraphics<4>[width=\linewidth]{show-file.pdf}
-  \end{minipage}  
+  \end{minipage}\medskip
+
+  \pause[4]
+  Remark: \texttt{HEAD\textasciitilde n} is the parent commit of \texttt{HEAD\textasciitilde (n-1)} (for $n>1$) and \texttt{HEAD\textasciitilde 1}\ =\ \texttt{HEAD\^} is the parent commit of the last commit.
 \end{frame}
 
 \begin{frame}
   \frametitle{Inspecting your Repository III}
+  \framesubtitle{Review the complete commit history}
   \begin{minipage}{0.55\linewidth}
     \begin{itemize}
       \item See commit history\\
@@ -503,7 +538,7 @@
     \begin{itemize}
       \item Switch to a branch\\
         {\tt\ \$ git checkout <name>}
-      \item<2-> Merge branch into current branch\\
+      \item<2-> Merge \texttt{<branch>} into current branch\\
         {\tt\ \$ git merge <branch>}
     \end{itemize}
     \pause[3]
@@ -530,7 +565,7 @@
       \item Commit staged items\\
         {\tt\ \$ git commit -m <msg>}
       \pause
-      \item Merge branch into current branch\\
+      \item Merge \texttt{<branch>} into current branch\\
         {\tt\ \$ git merge <branch>}
     \end{itemize}
   \end{minipage}  
@@ -576,7 +611,7 @@
     \includegraphics<3>[width=\linewidth]{workflow-branch-new-merge-conflict-resolve-commit.pdf}
   \end{minipage}  
   \begin{minipage}{0.47\linewidth}
-    To resolve a mergig conflict you have to
+    To resolve a merging conflict you have to
     \begin{itemize}
       \item<1-> Edit the unmerged files 
       \item<2-> Add the corrected files to the index\\

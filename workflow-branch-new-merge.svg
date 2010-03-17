@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,8 +13,10 @@
    height="400"
    id="svg4823"
    version="1.1"
-   inkscape:version="0.47pre4 r22446"
-   sodipodi:docname="workflow-branch-new-merge.svg">
+   inkscape:version="0.46"
+   sodipodi:docname="workflow-branch-new-merge.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs4825">
     <linearGradient
@@ -383,15 +384,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.7025"
-     inkscape:cx="161.31628"
+     inkscape:cx="151.03728"
      inkscape:cy="200"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="934"
+     inkscape:window-width="1272"
+     inkscape:window-height="946"
      inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4828">
@@ -401,7 +402,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -911,33 +912,10 @@
        transform="translate(0,652.36218)"
        sodipodi:nodetypes="cc" />
     <path
-       style="fill:none;stroke:url(#linearGradient13725);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6831)"
+       style="fill:none;stroke:url(#linearGradient13725);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:none;marker-start:url(#Arrow1Mstart)"
        d="m 220.68906,763.3754 31.71806,0"
        id="path13723"
        sodipodi:nodetypes="cc" />
-    <g
-       id="g13369"
-       transform="translate(158.54457,-8.8105727)">
-      <rect
-         ry="10"
-         rx="10"
-         y="748.69116"
-         x="28.781204"
-         height="30.543318"
-         width="42.290749"
-         id="rect13371"
-         style="fill:#e9e990;fill-opacity:1;fill-rule:nonzero;stroke:#565656;stroke-opacity:1" />
-      <text
-         id="text13373"
-         y="768.01184"
-         x="30.86652"
-         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-         xml:space="preserve"><tspan
-           y="768.01184"
-           x="30.86652"
-           id="tspan13375"
-           sodipodi:role="line">commit</tspan></text>
-    </g>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6831)"
        d="m 186.78414,755.73957 c -18.01698,0 -23.68593,7.63583 -39.94126,7.63583"
@@ -1106,6 +1084,29 @@
        sodipodi:nodetypes="cc"
        id="path13727"
        d="m 229.49964,755.73957 c 10.96852,0.58737 6.06478,7.63583 22.32011,7.63583"
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#marker6831)" />
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:none;marker-start:url(#Arrow1Mstart)" />
+    <g
+       id="g13369"
+       transform="translate(158.54457,-8.8105727)">
+      <rect
+         ry="10"
+         rx="10"
+         y="748.69116"
+         x="28.781204"
+         height="30.543318"
+         width="42.290749"
+         id="rect13371"
+         style="fill:#e9e990;fill-opacity:1;fill-rule:nonzero;stroke:#565656;stroke-opacity:1" />
+      <text
+         id="text13373"
+         y="768.01184"
+         x="30.86652"
+         style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+         xml:space="preserve"><tspan
+           y="768.01184"
+           x="30.86652"
+           id="tspan13375"
+           sodipodi:role="line">commit</tspan></text>
+    </g>
   </g>
 </svg>

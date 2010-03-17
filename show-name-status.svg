@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -13,8 +12,10 @@
    height="240"
    id="svg9222"
    version="1.1"
-   inkscape:version="0.47pre4 r22446"
-   sodipodi:docname="show-name-status.svg">
+   inkscape:version="0.46"
+   sodipodi:docname="show-name-status.svg"
+   sodipodi:version="0.32"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <defs
      id="defs9224">
     <inkscape:perspective
@@ -38,10 +39,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1280"
-     inkscape:window-height="934"
+     inkscape:window-width="1272"
+     inkscape:window-height="946"
      inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata9227">
@@ -51,7 +52,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,34 +77,38 @@
          sodipodi:role="line"
          id="tspan9234"
          x="18.925781"
-         y="829.12244">user@kist:~/develop/myproj$ git show HEAD~1</tspan><tspan
+         y="829.12244">user@kist:~/develop/myproj$ git show ...</tspan><tspan
          sodipodi:role="line"
          x="18.925781"
          y="841.62244"
-         id="tspan10126">commit a42108605d8f55fb3666c18a6905274dc0eb88be</tspan><tspan
+         id="tspan3573">... --name-status</tspan><tspan
          sodipodi:role="line"
          x="18.925781"
          y="854.12244"
-         id="tspan10334">Author: user &lt;user@cia.org&gt;</tspan><tspan
+         id="tspan10126">commit a42108605d8f55fb3666c18a6905274dc0eb88be</tspan><tspan
          sodipodi:role="line"
          x="18.925781"
          y="866.62244"
-         id="tspan10336">Date:   Wed Feb 24 20:41:45 2010 +0100</tspan><tspan
+         id="tspan10334">Author: user &lt;user@cia.org&gt;</tspan><tspan
          sodipodi:role="line"
          x="18.925781"
          y="879.12244"
-         id="tspan10338" /><tspan
+         id="tspan10336">Date:   Wed Feb 24 20:41:45 2010 +0100</tspan><tspan
          sodipodi:role="line"
          x="18.925781"
          y="891.62244"
-         id="tspan10340">    Added new message</tspan><tspan
+         id="tspan10338" /><tspan
          sodipodi:role="line"
          x="18.925781"
          y="904.12244"
-         id="tspan10342" /><tspan
+         id="tspan10340">    Added new message</tspan><tspan
          sodipodi:role="line"
          x="18.925781"
          y="916.62244"
+         id="tspan10342" /><tspan
+         sodipodi:role="line"
+         x="18.925781"
+         y="929.12244"
          id="tspan10346">M       main.c</tspan></text>
     <text
        xml:space="preserve"
