@@ -12,11 +12,10 @@ repo-index.pdf\
 objects.pdf\
 objects-sha1.pdf\
 objects-name.pdf\
-objects-blob.pdf\
-objects-tree.pdf\
-objects-commit.pdf\
-objects-tag.pdf\
-history-with-objects.pdf\
+history-with-objects-blob.pdf\
+history-with-objects-tree.pdf\
+history-with-objects-commit.pdf\
+history-with-objects-tag.pdf\
 init.pdf\
 clone.pdf\
 status.pdf\
@@ -64,6 +63,7 @@ remote-commits.pdf\
 remote-fetch.pdf\
 remote-checkout-remote.pdf\
 remote-merge.pdf\
+remote-delete.pdf\
 remote-want-to-push-simple.pdf\
 remote-push-simple.pdf\
 remote-want-to-push-problem.pdf\

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,7 +13,7 @@
    height="400"
    id="svg4823"
    version="1.1"
-   inkscape:version="0.46"
+   inkscape:version="0.47pre4 r22446"
    sodipodi:docname="remote-clone.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
@@ -353,10 +354,10 @@
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1272"
-     inkscape:window-height="946"
+     inkscape:window-width="1280"
+     inkscape:window-height="934"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="33"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4828">
@@ -384,34 +385,34 @@
        y="942.5423" />
     <text
        xml:space="preserve"
-       style="font-size:9.00000008;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
+       style="font-size:9px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"
        x="14.344176"
        y="964.24988"
        id="text8946"
        transform="scale(1.0093557,0.990731)"><tspan
          sodipodi:role="line"
          x="14.344176"
-         y="964.24988"
-         id="tspan8116">user@kiste:~/develop$ clone git@github.com:user/myp...</tspan><tspan
+         y="975.49988"
+         id="tspan6548">user@kiste:~/develop$ git clone git@github.com:user/...</tspan><tspan
          sodipodi:role="line"
          x="14.344176"
-         y="975.53943"
+         y="986.74988"
          id="tspan6665">Initialized empty Git repository in /home/user/deve...</tspan><tspan
          sodipodi:role="line"
          x="14.344176"
-         y="986.82892"
+         y="997.99988"
          id="tspan6667">user@kiste:~/develop$ cd myproj/</tspan><tspan
          sodipodi:role="line"
          x="14.344176"
-         y="998.11847"
+         y="1009.2499"
          id="tspan6669">user@kiste:~/develop/myproj$ ls -a</tspan><tspan
          sodipodi:role="line"
          x="14.344176"
-         y="1009.408"
+         y="1020.4999"
          id="tspan6381">./  ../  .git/  main.c  solver.c</tspan><tspan
          sodipodi:role="line"
          x="14.344176"
-         y="1020.6975"
+         y="1031.7499"
          id="tspan6379">user@kiste:~/develop/myproj$ </tspan></text>
     <flowRoot
        xml:space="preserve"

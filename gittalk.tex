@@ -249,9 +249,9 @@
   \end{minipage}  
 \end{frame}
 
-\subsection{What do the objects in the history look like?}
+\subsection{How can the objects in the history be adressed?}
 \begin{frame}
-  \frametitle{What do the objects in the history look like?}
+  \frametitle{How can the objects in the history be adressed?}
   \begin{minipage}{0.33\linewidth}
     \includegraphics<1>[width=\linewidth]{objects.pdf}
     \includegraphics<2>[width=\linewidth]{objects-sha1.pdf}
@@ -263,47 +263,66 @@
       \item<2-> From this data the SHA1 hash (40-digit number) is calculated
       \item<3-> This value serves as a unique name. Collisions are highly unlikely!
     \end{itemize}    
-  \end{minipage}\bigskip
-  
-  \pause[4]
-  The following objects exist\medskip
-  
-  \begin{minipage}{0.24\linewidth}
-    \centering\small Blobs\\
-    \includegraphics[width=\linewidth]{objects-blob.pdf}
-  \end{minipage}  
-  \pause
-  \begin{minipage}{0.24\linewidth}
-    \centering\small Trees\\
-    \includegraphics[width=\linewidth]{objects-tree.pdf}
-  \end{minipage}  
-  \pause
-  \begin{minipage}{0.24\linewidth}
-    \centering\small Commits\\
-    \includegraphics[width=\linewidth]{objects-commit.pdf}
-  \end{minipage}  
-  \pause
-  \begin{minipage}{0.24\linewidth}
-    \centering\small Tags\\
-    \includegraphics[width=\linewidth]{objects-tag.pdf}
-  \end{minipage}  
+  \end{minipage}
 \end{frame}
 
+\subsection{What do the objects in the history look like?}
 \begin{frame}
-  \frametitle{An Example}
-  \begin{center}
-    \includegraphics[width=0.5\linewidth]{history-with-objects.pdf}
-  \end{center}
+  \frametitle{What do the objects in the history look like?}  
+  \begin{minipage}[t]{0.5\linewidth}
+    \only<1>{\large{Blob objects}\\}
+    \only<2>{\large{Tree objects}\\}
+    \only<3>{\large{Commit objects}\\}
+    \only<4>{\large{Tag objects}\\}
+    \includegraphics<1>[width=\linewidth]{history-with-objects-blob.pdf}  
+    \includegraphics<2>[width=\linewidth]{history-with-objects-tree.pdf}  
+    \includegraphics<3>[width=\linewidth]{history-with-objects-commit.pdf}  
+    \includegraphics<4>[width=\linewidth]{history-with-objects-tag.pdf}  
+  \end{minipage}
+  \begin{minipage}[t]{0.48\linewidth}
+    \only<1>{
+      \begin{itemize}
+        \item A blob object represents a file and contain the file's content
+      \end{itemize}
+    }
+    \only<2>{
+      \begin{itemize}
+        \item A tree object represents a directory and its content
+        \item It contains a list of SHA1 values pointing to other tree and blob objects
+      \end{itemize}
+    }
+    \only<3>{
+      \begin{itemize}
+        \item A commit represents a snapshot of the working directory
+        \item It contains the
+          \begin{itemize}
+            \item SHA1 of the corresponding tree object
+            \item SHA1 of the parent commit
+            \item Name of the author and the committer
+            \item Message describing the commit
+          \end{itemize}          
+      \end{itemize}
+    }
+    \only<4>{
+      \begin{itemize}
+        \item A tag points out a certain object in your history
+        \item It contains the
+          \begin{itemize}
+            \item SHA1 name of the tagged object and its type
+            \item Name of the person who created the tag
+            \item Message describing the tag
+          \end{itemize}          
+      \end{itemize}      
+    }
+  \end{minipage} 
 \end{frame}
 
-
-%\subsection{An Example}
-%\begin{frame}
-%  \frametitle{An Example}
-%  \begin{center}
-%    \includegraphics[width=0.5\linewidth]{history-with-objects.pdf}  
-%  \end{center}
-%\end{frame}
+%~ \begin{frame}
+  %~ \frametitle{An Example}
+  %~ \begin{center}
+    %~ \includegraphics[width=0.5\linewidth]{history-with-objects.pdf}
+  %~ \end{center}
+%~ \end{frame}
 
 \section{How to start}
 \subsection{Basics}
@@ -660,14 +679,14 @@
   \end{minipage}  
   \begin{minipage}{0.47\linewidth}
     \begin{itemize}
-      \item<2-> Revert a commit by a new commit\\
+      \item<2-> Revert \texttt{<commit>} by creating a new commit\\
         {\tt\ \$ git revert <commit>}
-      \item<3-> Reset a reference\\
+      \item<3-> Reset the \texttt{HEAD} to \texttt{<commit>}\\
         {\tt\ \$ git reset\\
          \qquad\lbrack--hard\textbar --soft\rbrack\\
          \qquad <commit>}\\
         {\tiny\texttt{--hard} to set all files to the new state}
-      \item<4-> Revert a merge\\
+      \item<4-> Revert a merge \texttt{<commit>}\\
         {\tt\ \$ git revert \\
          \quad -m <parent> <commit>}\\
         {\tiny\texttt{-m \textit{n}} denotes the $n$-th parent of the commit}
@@ -707,7 +726,7 @@
       \item<2-> Clone a repository\\
         {\tt\ \$ git clone <URL>}
         \begin{itemize}
-          \item All objects from repository are downloaded
+          \item All objects from the repository are downloaded
           \item But only currently active branch of the remote will be checked out as a branch
           \item Remote branches to all other branches
         \end{itemize}
@@ -718,7 +737,7 @@
 
 \subsection{Pulling from a remote}
 \begin{frame}
-  \frametitle{Pulling from a remote}
+  \frametitle{Pulling from a remote - The safe procedure}
   \begin{minipage}{0.5\linewidth}
     \includegraphics<1>[width=\linewidth]{remote-clone.pdf}
     \includegraphics<2>[width=\linewidth]{remote-commits.pdf}
@@ -742,11 +761,12 @@
   \end{minipage}  
 \end{frame}
 
-\subsection{Pulling from a remote}
+%\subsection{Pulling from a remote }
 \begin{frame}
-  \frametitle{Pulling from a remote}
+  \frametitle{Pulling from a remote - The safe procedure}
   \begin{minipage}{0.5\linewidth}
-    \includegraphics<1->[width=\linewidth]{remote-merge.pdf}
+    \includegraphics<1>[width=\linewidth]{remote-merge.pdf}
+    \includegraphics<2->[width=\linewidth]{remote-delete.pdf}
   \end{minipage}
   \begin{minipage}{0.47\linewidth}
     If you agree to the changes:
@@ -754,17 +774,21 @@
       \item<1-> Merge the changes to the \texttt{master} branch\\
         {\tt\ \$ git checkout master}\\
         {\tt\ \$ git merge <branch>}
-      \item<1-> Delete the temporary \texttt{test} branch\\
-        {\tt\ \$ git branch (-d|-D) <branch>}\\
+      \item<2-> Delete the temporary \texttt{test} branch\\
+        {\tt\ \$ git branch (-d|-D)\\
+         \quad\ <branch>}\\
         {\tiny \texttt{-d} checks whether the branch is already merged}
     \end{itemize}
-    \pause
-    If you always agree to the changes in the remote, use\smallskip
+  \end{minipage}
+\end{frame}
 
-      {\tt\ \$ git pull <remote>}\smallskip
-
-    to fetch the changes and merge them into their local branches.
-  \end{minipage}  
+\begin{frame}
+  \frametitle{Pulling from a remote}
+  If you always agree to the changes in the remote, use\smallskip
+  
+    {\tt\ \$ git pull <remote> [<branch>]}\smallskip
+    
+  to fetch the changes from \texttt{<remote>} and merge them right into your repository.
 \end{frame}
 
 \subsection{Pushing to a remote}
@@ -861,14 +885,15 @@
 %  \item<3-> No external programs needed.      
 %  \end{itemize}
 %}
-\section{Further Informations}
+\section{How to remember all this stuff?}
 \subsection{Git cheat sheet}
 \begin{frame}
   \frametitle{Git cheat sheet}
-  Gives an overview of all important Git commands
+  Gives you an overview of all important Git commands
   \begin{center}
-    \frame{\includegraphics[scale=0.3]{git-cheat-sheet.pdf}}
+    \frame{\includegraphics[scale=0.25]{git-cheat-sheet.pdf}}
   \end{center}
+  Download and print it and nail it down onto the wall at your desk!
 \end{frame}
 
 \begin{frame}
@@ -878,8 +903,11 @@
     \end{LARGE}
   \end{center}\bigskip
 
-You can get this talk under\\
-  \texttt{git://github.com/waehnert/gittalk.git}
+You can get this talk by using Git: Just type\smallskip
+
+\quad\texttt{git clone git://github.com/waehnert/gittalk.git}\smallskip
+
+to get a copy of the talk.
 \end{frame}
 
 \end{document}

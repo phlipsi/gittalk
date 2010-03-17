@@ -14,7 +14,7 @@
    id="svg4823"
    version="1.1"
    inkscape:version="0.47pre4 r22446"
-   sodipodi:docname="remote-merge.svg"
+   sodipodi:docname="remote-delete.svg"
    sodipodi:version="0.32"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <sodipodi:namedview
@@ -26,7 +26,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1.855"
      inkscape:cx="165"
-     inkscape:cy="178.26192"
+     inkscape:cy="221.3886"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -415,7 +415,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -451,36 +451,16 @@
          y="964.24988"
          x="14.344176"
          sodipodi:role="line"
-         id="tspan3472">user@kiste:~/develop/myproj$ git checkout master</tspan><tspan
+         id="tspan4660">user@kiste:~/develop/myproj$ git branch -d test</tspan><tspan
          y="975.49988"
          x="14.344176"
          sodipodi:role="line"
-         id="tspan4656">Switched to branch &quot;master&quot;</tspan><tspan
+         id="tspan4681">user@kiste:~/develop/myproj$ </tspan><tspan
          y="986.74988"
          x="14.344176"
          sodipodi:role="line"
-         id="tspan4652">user@kiste:~/develop/myproj$ git merge test</tspan><tspan
-         y="997.99988"
-         x="14.344176"
-         sodipodi:role="line"
-         id="tspan4654">Merge made by recursive.</tspan><tspan
-         y="1009.2499"
-         x="14.344176"
-         sodipodi:role="line"
-         id="tspan4658"> 0 files changed, 0 insertions(+), 0 deletions(-)</tspan><tspan
-         y="1020.4999"
-         x="14.344176"
-         sodipodi:role="line"
-         id="tspan4660"> create mode 100644 translate.c</tspan><tspan
-         y="1042.9999"
-         x="14.344176"
-         sodipodi:role="line"
-         id="tspan4681">user@kiste:~/develop/myproj$ </tspan><tspan
-         y="1054.2499"
-         x="14.344176"
-         sodipodi:role="line"
          id="tspan4679" /><tspan
-         y="1065.4999"
+         y="997.99988"
          x="14.344176"
          sodipodi:role="line"
          id="tspan3468" /></text>
@@ -943,26 +923,6 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.50000000000000000;stroke-linecap:butt;stroke-linejoin:miter;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow1Mstart)"
        d="M 119.23807,720.79405 C 130.82802,720.79405 117.87615,713.27862 131.57159,713.27862"
        id="path4630"
-       sodipodi:nodetypes="cc" />
-    <path
-       sodipodi:nodetypes="ccccccc"
-       id="path2550"
-       d="m 3.684,680.73719 34.90567,0 0,8.62533 c 0,2.85636 -2.14814,5.1213 -5.12129,5.1213 l -24.52831,0 c -2.80222,0 -5.25607,-2.29696 -5.25607,-5.25607 l 0,-8.49056 z"
-       style="fill:#e99090;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <text
-       id="text2552"
-       y="690.36249"
-       x="13.439573"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       xml:space="preserve"><tspan
-         y="690.36249"
-         x="13.439573"
-         id="tspan2554"
-         sodipodi:role="line">test</tspan></text>
-    <path
-       style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#marker6831)"
-       d="M 21.5635,694.94942 C 35.57967,714.91135 74.93277,681.42 97.57428,713.81735"
-       id="path2556"
        sodipodi:nodetypes="cc" />
   </g>
 </svg>
