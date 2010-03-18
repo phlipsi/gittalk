@@ -15,6 +15,7 @@
 \usepackage{graphicx}
 \usetheme{Torino}
 \usecolortheme{crane}
+\usepackage{lastpage}
 %\usepackage{beamerthemesplit}
 %\usepackage{listings}
 
@@ -167,37 +168,7 @@
   \end{block}
 
 }
-%\section{Introduction to Git}
-%\subsection{Short History}
-%\frame{
-%  \frametitle{Short History}
-%  \begin{description}
-%    \item[1991-2002] Changes to the Linux kernel were passed around as patches and archived files
-%    \item[2002-2005] The kernel project used the proprietary BitKeeper VCS
-%    \item[2005] The relation between the kernel community and BitMover Inc. broke down
-%    \item[Apr 3, 2005] Begin of the development of Git as a replacement for BitKeeper
-%    \item[Feb 13, 2010] Release of the version 1.7.0
-%  \end{description}
-%}
-%\subsection{Design Goals}
-%\frame
-%{
-%  \frametitle{Design Goals}
-%  \begin{block}{Linus Torvalds had several design criteria}
-%    \begin{enumerate}
-%      \item Something opposite to CVS (Linus: "[...] and I hate it with passion.")
-%      \item Distributed version control system
-%      \item Strong safeguards against corruption, either accidental or malicious
-%      \item High performance
-%    \end{enumerate}
-%    Every VCS which existed in 2005 didn't meet at least one of these criteria. So Linus sat down and started writing Git.
-%  \end{block}
 
-%  \begin{small}
-%    Why ``Git''? Linus: ``I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git.''\\
-%    \tiny a git, brit. en., stupid or unpleasant person
-%  \end{small}
-%}
 \subsection{How to get Git}
 \frame
 {
@@ -909,5 +880,97 @@ You can get this talk by using Git: Just type\smallskip
 
 to get a copy of the talk.
 \end{frame}
+
+\section*{Additional Information}
+\subsection*{Public repositories}
+\begin{frame}
+  \frametitle{Public repositories}
+  \begin{minipage}{0.5\linewidth}
+    \includegraphics<1>[width=\linewidth]{public-repos-own.pdf}
+    \includegraphics<2>[width=\linewidth]{public-repos-own-rw.pdf}
+    \includegraphics<3>[width=\linewidth]{public-repos-main.pdf}
+    \includegraphics<4>[width=\linewidth]{public-repos-main-pull.pdf}
+    \includegraphics<5>[width=\linewidth]{public-repos-upload.pdf}
+  \end{minipage}
+  \begin{minipage}{0.47\linewidth}
+    \begin{itemize}
+      \item<1-> Each developer has its own private and public repository
+      \item<2-> You can pull from and push to your public repository
+      \item<3-> Among these repositories there is the main repository
+      \item<4-> Every developer can pull the newest official changes from this main repository
+      \item<5-> Now each developer works on the project and makes the changes publicly available
+    \end{itemize}
+  \end{minipage}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Public repositories}
+  \begin{minipage}{0.5\linewidth}
+    \includegraphics<1>[width=\linewidth]{public-repos-share.pdf}
+    \includegraphics<2>[width=\linewidth]{public-repos-bringin.pdf}
+    \includegraphics<3>[width=\linewidth]{public-repos-main-pull.pdf}
+  \end{minipage}
+  \begin{minipage}{0.47\linewidth}
+    \begin{itemize}
+      \item<1-> The developers can share changes among each other
+      \item<2-> If you want to bring your changes into the main repository you have to make a pull request to its
+        maintainer
+      \item<3-> If these changes are accepted they can be pulled by others from the main repository
+    \end{itemize}
+  \end{minipage}
+\end{frame}
+
+\subsection*{Short History}
+\begin{frame}
+  \frametitle{Short History}
+  \begin{description}
+    \item[1991-2002] Changes to the Linux kernel were passed around as patches and archived files
+    \item[2002-2005] The kernel project used the proprietary BitKeeper VCS
+    \item[2005] The relation between the kernel community and BitMover Inc. broke down
+    \item[Apr 3, 2005] Begin of the development of Git as a replacement for BitKeeper
+    \item[Feb 13, 2010] Release of the version 1.7.0
+  \end{description}
+\end{frame}
+
+\subsection*{Design Goals}
+\begin{frame}
+  \frametitle{Design Goals}
+  \begin{block}{Linus Torvalds had several design criteria}
+    \begin{enumerate}
+      \item Something opposite to CVS (Linus: "[...] and I hate it with passion.")
+      \item Distributed version control system
+      \item Strong safeguards against corruption, either accidental or malicious
+      \item High performance
+    \end{enumerate}
+    Every VCS which existed in 2005 didn't meet at least one of these criteria. So Linus sat down and started writing Git.
+  \end{block}
+
+  \begin{small}
+    Why ``Git''? Linus: ``I'm an egotistical bastard, and I name all my projects after myself. First Linux, now git.''\\
+    \tiny a git, brit. en., stupid or unpleasant person
+  \end{small}
+\end{frame}
+
+\subsection*{Basic Tagging}
+\begin{frame}
+  \frametitle{Basic Tagging}
+  Tags are pointers to specific objects in your history.
+  \begin{itemize}
+    %\item To create a lightweight tag, i.e. without any description or information of its author\\
+    %  {\tt\ \$ git tag <tag-name> [<object>]}
+    \item To create an annotated tag containing a description and information about its author\\
+      {\tt\ \$ git tag -a <tag-name> -m <msg> [<objects>]}
+    \item To get the informations stored along with a tag\\
+      {\tt\ \$ git show <tag-name>}
+    \item To get a list of the available tags\\
+      {\tt\ \$ git tag [-l <search-pattern>]}
+    \item To delete a given tag (Public available tags shouldn't be deleted!)\\
+      {\tt\ \$ git tag -d <name>}
+      %{\tiny }
+    \item To push a tag to a remote (Tags aren't transfered automaticaly!)\\
+      {\tt\ \$ git push <remote> <tag>}
+  \end{itemize}
+\end{frame}
+
 
 \end{document}

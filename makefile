@@ -70,7 +70,19 @@ remote-want-to-push-problem.pdf\
 remote-pull-problem.pdf\
 remote-push-problem.pdf\
 distributed.pdf\
-git-cheat-sheet.pdf
+git-cheat-sheet.pdf\
+public-repos-own.pdf\
+public-repos-own-rw.pdf\
+public-repos-main.pdf\
+public-repos-main-pull.pdf\
+public-repos-upload.pdf\
+public-repos-share.pdf\
+public-repos-bringin.pdf\
+public-repos-main-pull.pdf
+
+# To get a list of all needed svg
+# grep -o "[-a-z0-9]*\.pdf" gittalk.tex | xargs -I {} basename {} ".pdf" | xargs -I {} echo "{}".svg
+
 
 #centralized.pdf distributed.pdf \
 #repo-history.pdf repo-refs.pdf repo-worktree.pdf repo-index.pdf \
