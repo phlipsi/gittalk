@@ -57,7 +57,7 @@
     Git is a \alert<3>{distributed} \alert<2>{version control system}\pause, it
     \begin{itemize}
       \item Manages a given set of files and their histories.\pause 
-      \item There can be many similar repositories storing these files, which at least partly share the same history.
+      \item There can be many similar repositories, which at least partly share the same history.
     \end{itemize}
   \end{block}
   \pause
@@ -301,7 +301,7 @@
   \frametitle{Basics}
   Every Git command looks like this\medskip
   
-  {\tt\ \$ git <options> command <options>}\medskip
+  {\tt\ \$ git [<options>] command [<options>]}\medskip
   
   \pause
   For example:\medskip
@@ -344,122 +344,155 @@
     \end{itemize}
 \end{frame}
 
-\subsection{At the very Beginning}
+\subsection{Before you start}
 \begin{frame}
-  \frametitle{At the very Beginning}
+  \frametitle{Before you start}
   \begin{itemize}
-    \item Set up your name\\
-      {\tt\ \$ git config --global user.name <name>}\\
-      {\tt\ \$ git config --global user.email <email>}
+    \item You should set your name and email address\\
+      {\tt\ \$ git config [--global] user.name <name>}\\
+      {\tt\ \$ git config [--global] user.email <email>}
+    \item<2-> Tell Git which editor you like to use (for example to edit the commit messages)
+      {\tiny a.k.a to which religion do you belong?}\\
+			{\tt\ \$ git config [--global] core.editor <editor>}
+		\item<3-> To get a list of your settings\\
+			{\tt\ \$ git config [--global] --list}
   \end{itemize}
-  %\vspace{-0.5ex}
-  \pause
-  \begin{minipage}{0.55\textwidth}
-    \begin{itemize}
-      \item Create a new repository\\
-        \begin{itemize}
-          \item Go to the directory whose content shall be in a repository and type
-          \item  {\tt\ \$ git init}
-        \end{itemize}
-      \pause
-      \item Clone an existing repository
-        \begin{itemize}
-          \item Go to the directory which shall contain the directory with the repository and type
-          \item {\tt\ \$ git clone <URL>}
-        \end{itemize}
-    \end{itemize}    
-  \end{minipage}
-  \pause[2] 
-  \begin{minipage}{0.4\linewidth}
-    \includegraphics<2>[width=\linewidth]{init.pdf}
-    \includegraphics<3>[width=\linewidth]{clone.pdf}
-  \end{minipage}  
+  %~ %\vspace{-0.5ex}
+  %~ \pause
+  %~ \begin{minipage}{0.55\textwidth}
+    %~ \begin{itemize}
+      %~ \item Create a new repository\\
+        %~ \begin{itemize}
+          %~ \item Go to the directory whose content shall be in a repository and type
+          %~ \item  {\tt\ \$ git init}
+        %~ \end{itemize}
+      %~ \pause
+      %~ \item Clone an existing repository
+        %~ \begin{itemize}
+          %~ \item Go to the directory which shall contain the directory with the repository and type
+          %~ \item {\tt\ \$ git clone <URL>}
+        %~ \end{itemize}
+    %~ \end{itemize}    
+  %~ \end{minipage}
+  %~ \pause[2] 
+  %~ \begin{minipage}{0.4\linewidth}
+    %~ \includegraphics<2>[width=\linewidth]{init.pdf}
+    %~ \includegraphics<3>[width=\linewidth]{clone.pdf}
+  %~ \end{minipage}  
 \end{frame}
 
 \subsection{Inspecting your Repository}
 \begin{frame}
-  \frametitle{Inspecting your Repository I}
-  \framesubtitle{Show the current state of the repository}
-  \begin{minipage}{0.55\linewidth}
-    \begin{itemize}
-      \item Status of the current working tree\\
-        {\tt\ \$ git status}\\
-      \pause
-      \item Changes between index and working tree\\
-        {\tt\ \$ git diff}\\
-      \pause
-      \item Changes between index and last commit\\
-        {\tt\ \$ git diff --staged}\\
-      \pause
-      \item Changes between current working tree and last commit\\
-        {\tt\ \$ git diff HEAD}\bigskip
-    \end{itemize}
-  \end{minipage}
-  \pause[1]
-  \begin{minipage}{0.4\linewidth}
-    \centering
-    \includegraphics<1>[width=\linewidth]{status.pdf}
-    \includegraphics<2>[width=\linewidth]{diff.pdf}
-    \includegraphics<3>[width=\linewidth]{diff-staged.pdf}
-    \includegraphics<4>[width=\linewidth]{diff-head.pdf}
-  \end{minipage}  
+	\frametitle{Inspecting your Repository}
+	\begin{minipage}{0.55\linewidth}
+		\begin{itemize}
+			\item To get the status of your working directory\\
+				{\tt\ \$ git status}
+			\item<2-> The changes between working tree and last commit\\
+				{\tt\ \$ git diff HEAD}
+			\item<3-> Review the last commit\\
+				{\tt\ \$ git show HEAD}
+			\item<4-> To inspect the history of the repository\\
+				{\tt\ \$ git log}
+			\item<5-> To see a nice tree of your history\\
+				{\tt\ \$ gitk [--all]}\\
+				{\tiny \texttt{--all} to show all branches}
+		\end{itemize}	
+	\end{minipage}
+	\begin{minipage}{0.4\linewidth}
+		\centering
+		\includegraphics<1>[width=\linewidth]{status.pdf}
+		\includegraphics<2>[width=\linewidth]{diff-head.pdf}
+		\includegraphics<3>[width=\linewidth]{show.pdf}
+		\includegraphics<4>[width=\linewidth]{log.pdf}
+		\includegraphics<5>[width=\linewidth]{gitk-rails.jpg}
+	\end{minipage}
 \end{frame}
 
-\begin{frame}
-  \frametitle{Inspecting your Repository II}
-  \framesubtitle{Review commits}
-  \begin{minipage}{0.55\linewidth}
-    \begin{itemize}
-      \item Review the last commit\\
-        {\tt\ \$ git show}
-      \pause
-      \item Review parent commit of the last commit\\
-        {\tt\ \$ git show HEAD\textasciitilde 1}
-      \pause
-      \item Changes in the last commit\\
-        {\tt\ \$ git show --name-status}
-      \pause
-      \item Show contents of \texttt{<file>} in the last commit\\
-        {\tt\ \$ git show HEAD:<file>}\\
-    \end{itemize}
-  \end{minipage}
-  \pause[1]
-  \begin{minipage}{0.4\linewidth}
-    \centering
-    \includegraphics<1>[width=\linewidth]{show.pdf}
-    \includegraphics<2>[width=\linewidth]{show-before.pdf}
-    \includegraphics<3>[width=\linewidth]{show-name-status.pdf}
-    \includegraphics<4>[width=\linewidth]{show-file.pdf}
-  \end{minipage}\medskip
-
-  \pause[4]
-  Remark: \texttt{HEAD\textasciitilde n} is the parent commit of \texttt{HEAD\textasciitilde (n-1)} (for $n>1$) and \texttt{HEAD\textasciitilde 1}\ =\ \texttt{HEAD\^} is the parent commit of the last commit.
-\end{frame}
-
-\begin{frame}
-  \frametitle{Inspecting your Repository III}
-  \framesubtitle{Review the complete commit history}
-  \begin{minipage}{0.55\linewidth}
-    \begin{itemize}
-      \item See commit history\\
-        {\tt\ \$ git log}
-      \pause
-      \item See commit history from the next to last commit to the last one\\
-        {\tt\ \$ git log HEAD\textasciitilde 1..HEAD}
-      \pause
-      \item A nice tree of your history\\
-        {\tt\ \$ gitk [--all]}\\
-        {\tiny \texttt{--all} to show all branches}
-    \end{itemize}
-  \end{minipage}
-  \pause[1]
-  \begin{minipage}{0.4\linewidth}
-    \centering
-    \includegraphics<1>[width=\linewidth]{log.pdf}
-    \includegraphics<2>[width=\linewidth]{log-head.pdf}
-    \includegraphics<3>[width=\linewidth]{gitk-rails.jpg}
-  \end{minipage}  
-\end{frame}
+%~ \subsection{Inspecting your Repository}
+%~ \begin{frame}
+  %~ \frametitle{Inspecting your Repository I}
+  %~ \framesubtitle{Show the current state of the repository}
+  %~ \begin{minipage}{0.55\linewidth}
+    %~ \begin{itemize}
+      %~ \item Status of the current working tree\\
+        %~ {\tt\ \$ git status}\\
+      %~ \pause
+      %~ \item Changes between index and working tree\\
+        %~ {\tt\ \$ git diff}\\
+      %~ \pause
+      %~ \item Changes between index and last commit\\
+        %~ {\tt\ \$ git diff --staged}\\
+      %~ \pause
+      %~ \item Changes between current working tree and last commit\\
+        %~ {\tt\ \$ git diff HEAD}\bigskip
+    %~ \end{itemize}
+  %~ \end{minipage}
+  %~ \pause[1]
+  %~ \begin{minipage}{0.4\linewidth}
+    %~ \centering
+    %~ \includegraphics<1>[width=\linewidth]{status.pdf}
+    %~ \includegraphics<2>[width=\linewidth]{diff.pdf}
+    %~ \includegraphics<3>[width=\linewidth]{diff-staged.pdf}
+    %~ \includegraphics<4>[width=\linewidth]{diff-head.pdf}
+  %~ \end{minipage}  
+%~ \end{frame}
+%~ 
+%~ \begin{frame}
+  %~ \frametitle{Inspecting your Repository II}
+  %~ \framesubtitle{Review commits}
+  %~ \begin{minipage}{0.55\linewidth}
+    %~ \begin{itemize}
+      %~ \item Review the last commit\\
+        %~ {\tt\ \$ git show}
+      %~ \pause
+      %~ \item Review parent commit of the last commit\\
+        %~ {\tt\ \$ git show HEAD\textasciitilde 1}
+      %~ \pause
+      %~ \item Changes in the last commit\\
+        %~ {\tt\ \$ git show --name-status}
+      %~ \pause
+      %~ \item Show contents of \texttt{<file>} in the last commit\\
+        %~ {\tt\ \$ git show HEAD:<file>}\\
+    %~ \end{itemize}
+  %~ \end{minipage}
+  %~ \pause[1]
+  %~ \begin{minipage}{0.4\linewidth}
+    %~ \centering
+    %~ \includegraphics<1>[width=\linewidth]{show.pdf}
+    %~ \includegraphics<2>[width=\linewidth]{show-before.pdf}
+    %~ \includegraphics<3>[width=\linewidth]{show-name-status.pdf}
+    %~ \includegraphics<4>[width=\linewidth]{show-file.pdf}
+  %~ \end{minipage}\medskip
+%~ 
+  %~ \pause[4]
+  %~ Remark: \texttt{HEAD\textasciitilde n} is the parent commit of \texttt{HEAD\textasciitilde (n-1)} (for $n>1$) and \texttt{HEAD\textasciitilde 1}\ =\ \texttt{HEAD\^} is the parent commit of the last commit.
+%~ \end{frame}
+%~ 
+%~ \begin{frame}
+  %~ \frametitle{Inspecting your Repository III}
+  %~ \framesubtitle{Review the complete commit history}
+  %~ \begin{minipage}{0.55\linewidth}
+    %~ \begin{itemize}
+      %~ \item See commit history\\
+        %~ {\tt\ \$ git log}
+      %~ \pause
+      %~ \item See commit history from the next to last commit to the last one\\
+        %~ {\tt\ \$ git log HEAD\textasciitilde 1..HEAD}
+      %~ \pause
+      %~ \item A nice tree of your history\\
+        %~ {\tt\ \$ gitk [--all]}\\
+        %~ {\tiny \texttt{--all} to show all branches}
+    %~ \end{itemize}
+  %~ \end{minipage}
+  %~ \pause[1]
+  %~ \begin{minipage}{0.4\linewidth}
+    %~ \centering
+    %~ \includegraphics<1>[width=\linewidth]{log.pdf}
+    %~ \includegraphics<2>[width=\linewidth]{log-head.pdf}
+    %~ \includegraphics<3>[width=\linewidth]{gitk-rails.jpg}
+  %~ \end{minipage}  
+%~ \end{frame}
 
 \section{Git Workflow - Private Repository}
 \subsection{Commit}
@@ -864,7 +897,7 @@
   \begin{center}
     \frame{\includegraphics[scale=0.25]{git-cheat-sheet.pdf}}
   \end{center}
-  Download and print it and nail it down onto the wall at your desk!
+  Download and print it and nail it onto the wall at your desk!
 \end{frame}
 
 \begin{frame}
