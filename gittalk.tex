@@ -761,6 +761,7 @@
         {\tt\ \$ git checkout -b\\
          \quad\ <name> <rem-branch>}
       \item<4-4> Test the changes thoroughly!
+      
     \end{itemize}
   \end{minipage}  
 \end{frame}
@@ -773,12 +774,15 @@
     \includegraphics<2->[width=\linewidth]{remote-delete.pdf}
   \end{minipage}
   \begin{minipage}{0.47\linewidth}
+    \begin{itemize}
+    \item<1->commit your changes to {\tt<name>} in case you changed something
+    \end{itemize}
     If you agree to the changes:
     \begin{itemize}
-      \item<1-> Merge the changes to the \texttt{master} branch\\
+      \item<2-> Merge the changes to the \texttt{master} branch\\
         {\tt\ \$ git checkout master}\\
         {\tt\ \$ git merge <branch>}
-      \item<2-> Delete the temporary \texttt{test} branch\\
+      \item<3-> Delete the temporary \texttt{test} branch\\
         {\tt\ \$ git branch (-d|-D)\\
          \quad\ <branch>}\\
         {\tiny \texttt{-d} checks whether the branch is already merged}
