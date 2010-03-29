@@ -770,14 +770,15 @@
 \begin{frame}
   \frametitle{Pulling from a remote - The safe procedure}
   \begin{minipage}{0.5\linewidth}
-    \includegraphics<1>[width=\linewidth]{remote-merge.pdf}
-    \includegraphics<2->[width=\linewidth]{remote-delete.pdf}
+    \includegraphics<1>[width=\linewidth]{remote-checkout-remote.pdf}
+    \includegraphics<2>[width=\linewidth]{remote-merge.pdf}
+    \includegraphics<3->[width=\linewidth]{remote-delete.pdf}
   \end{minipage}
   \begin{minipage}{0.47\linewidth}
-    \begin{itemize}
-    \item<1->commit your changes to {\tt<name>} in case you changed something
-    \end{itemize}
-    If you agree to the changes:
+    If you don't accept the changes, modify them and create a new commit.\smallskip
+    
+    \pause
+    And if you now agree:
     \begin{itemize}
       \item<2-> Merge the changes to the \texttt{master} branch\\
         {\tt\ \$ git checkout master}\\
